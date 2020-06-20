@@ -5,15 +5,23 @@
         width: 30px;
         height: 5px;
     }
-}
+
 .aes{
-    background-color: brown;
+   /* background-color: brown;*/
     overflow: hidden;
     transition: 6s;
 }
 .aes a{
     display: block;
     text-decoration: none;
-   
-   
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
 }
