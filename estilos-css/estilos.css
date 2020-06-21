@@ -1,27 +1,40 @@
 @media(max-width:640px){
-    .boton-menu{
+.boton-menu{
         margin-bottom: 5px;
         background-color: black;
         width: 30px;
         height: 5px;
-    }
-
+}
 .aes{
    /* background-color: brown;*/
     overflow: hidden;
-    transition: 6s;
+    transition: 2s;
 }
 .aes a{
     display: block;
     text-decoration: none;
+    
 }
 .flex{
     display: flex;
     justify-content: space-around;
+    padding: 30px;
 }
 .flex-1{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+}
+.bloque-sin-lineas a{
+    display: block;
+    text-decoration: none;
+    padding: 0 80px;
+}
+.borrar-lineas a{
+    text-decoration: none;
+}
+.tipo-de-letra-titulo {
+    font-family: 'Italiana', serif;
+    font-size: 50px;
 }
 }
