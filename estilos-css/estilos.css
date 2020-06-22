@@ -9,6 +9,7 @@
    /* background-color: brown;*/
     overflow: hidden;
     transition: 2s;
+    height: 0;
 }
 .aes a{
     display: block;
@@ -17,7 +18,7 @@
 }
 .flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 30px;
 }
 .flex-1{
