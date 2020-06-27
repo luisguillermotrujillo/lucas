@@ -9,6 +9,7 @@
    /* background-color: brown;*/
     overflow: hidden;
     transition: 2s;
+    transition-timing-function: ease;
     height: 0;
 }
 .aes a{
